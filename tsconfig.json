@@ -7,6 +7,9 @@
         "rootDir": "./source",
         "target": "es6",
         "skipLibCheck": true,
-        "strict": true
-    }
+        "strict": true,
+        
+    },
+    "include": ["source/**/*"],
+    "exclude": ["node_modules", "test", "jest.config.ts"]
 }
